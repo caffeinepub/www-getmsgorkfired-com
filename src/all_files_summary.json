@@ -1,0 +1,15 @@
+{
+  "backend/main.mo": "Motoko backend actor with a Map storing votes by Principal; provides a public vote function that accepts a boolean and stores it for the caller.",
+  "feature_evidence.json": "Feature evidence report documenting four implemented features: question display on black background, yes/no voting buttons, vote count display, and bold high-contrast visual design.",
+  "frontend-file-summaries.txt": "JSON summary of frontend files describing the voting interface, React Query hooks, global styles with black background, and Tailwind configuration.",
+  "frontend/index.css": "Tailwind base styles with CSS custom properties defining light and dark theme color tokens using OKLCH color space for the design system.",
+  "frontend/index.html": "HTML entry point with title 'www.getmsgorkfired.com' and root div that loads the React app via main.tsx.",
+  "frontend/src/App.tsx": "Main React component rendering the voting question, yes/no buttons with loading states, and post-vote results screen with placeholder vote counts awaiting backend implementation.",
+  "frontend/src/hooks/useActor.ts": "React Query hook that creates and manages the backend actor instance based on Internet Identity authentication state, invalidating dependent queries on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "React Query mutation hook for submitting votes to the backend actor, with query invalidation on success.",
+  "frontend/src/index.css": "Global Tailwind styles defining pure black background and white foreground with OKLCH color tokens for high-contrast design, applied to body and root elements.",
+  "frontend/src/main.tsx": "React application entry point wrapping App with QueryClientProvider and InternetIdentityProvider for state management and authentication.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with OKLCH-based color system, custom animations, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project state file for a voting website (www.getmsgorkfired.com) with existing features for displaying a question on black background, yes/no buttons, and vote counts. Contains pending feature requests for vote tracking and persistence."
+}

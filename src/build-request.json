@@ -1,0 +1,110 @@
+{
+  "kind": "build_request",
+  "title": "Create voting website with question and vote tracking",
+  "projectName": "Ms Gork Vote",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Display the question 'do you support the CR and getting Ms.Gork fired?' prominently on a black background screen",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "a black screen with two buttons one that says yes and one that says no with a question above \"do you support the CR and getting Ms.Gork fired?\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "The screen background is black",
+        "The question text is clearly visible and centered above the buttons",
+        "The exact question text matches: 'do you support the CR and getting Ms.Gork fired?'"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Render two voting buttons labeled 'yes' and 'no' below the question",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "two buttons one that says yes and one that says no"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Two buttons are displayed below the question",
+        "One button is labeled 'yes'",
+        "One button is labeled 'no'",
+        "Buttons are clearly clickable and visually distinct from the black background"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Record and persist user votes when either the 'yes' or 'no' button is clicked",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "after the user presses yes or no it'll show how many people have pressed that button"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Backend stores a count for 'yes' votes",
+        "Backend stores a count for 'no' votes",
+        "Vote counts persist across canister upgrades",
+        "Each button click increments the appropriate counter by one"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Display the current vote counts for both 'yes' and 'no' responses after the user votes",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "after the user presses yes or no it'll show how many people have pressed that button"
+        ]
+      },
+      "acceptanceCriteria": [
+        "After clicking either button, the vote counts become visible",
+        "The count for 'yes' votes is displayed",
+        "The count for 'no' votes is displayed",
+        "Vote counts update in real-time to reflect the user's vote"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Apply a bold, striking visual design with high contrast against the black background that creates an impactful, dramatic aesthetic suitable for a voting question interface",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Visual elements have strong contrast against the black background",
+        "Typography and spacing create a dramatic, focused experience",
+        "Design feels cohesive and purposeful throughout the interface"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "User authentication or login",
+    "Preventing multiple votes from the same user",
+    "Vote history or analytics",
+    "Admin dashboard",
+    "Vote export functionality"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

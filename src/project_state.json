@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "A voting website called www.getmsgorkfired.com with a black screen, two buttons (yes/no), a question about supporting the CR and getting Ms.Gork fired, and real-time vote count display",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-display-the-question-do-you-support-the-cr-and-getting-ms-gork-fired-prominently-on-a-black-background-screen",
+      "title": "Display the question 'do you support the CR and getting Ms.Gork fired?' prominently on a black background screen",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-two-voting-buttons-labeled-yes-and-no-below-the-question",
+      "title": "Render two voting buttons labeled 'yes' and 'no' below the question",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-the-current-vote-counts-for-both-yes-and-no-responses-after-the-user-votes",
+      "title": "Display the current vote counts for both 'yes' and 'no' responses after the user votes",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-bold-striking-visual-design-with-high-contrast-against-the-black-background-that-creates-an-impactful-dramatic-aesthetic-suitable-for-a-voting-question-interface",
+      "title": "Apply a bold, striking visual design with high contrast against the black background that creates an impactful, dramatic aesthetic suitable for a voting question interface",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Black screen layout with centered question and yes/no buttons",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Display vote counts after user votes",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Track and persist vote data for yes/no responses",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Record and persist user votes when either the 'yes' or 'no' button is clicked",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "www.getmsgorkfired.com",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

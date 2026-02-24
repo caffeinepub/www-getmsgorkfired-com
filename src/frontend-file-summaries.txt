@@ -1,0 +1,6 @@
+{
+  "frontend/src/App.tsx": "Main voting interface with black background, question display, yes/no buttons, and post-vote results screen with placeholder for vote counts (pending backend implementation).",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hook for submitting votes to the backend via the vote mutation.",
+  "frontend/src/index.css": "Global styles with pure black background and high-contrast white text using OKLCH color system for dramatic aesthetic.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom color tokens supporting the black-and-white high-contrast design system."
+}
